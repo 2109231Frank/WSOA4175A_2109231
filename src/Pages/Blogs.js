@@ -7,7 +7,7 @@ export default class Blogs extends Component {
   render() {
     return (
         <div className='Blogs'>
-        <h1>MY BLOGS BITCH!</h1>
+        <h1>MY BLOGS!</h1>
             <div className='bloglist'>
                 {Bloglist.map((blogItem, value) => {
                     return(

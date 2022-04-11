@@ -9,6 +9,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
+    margin-top: 10%;
 }
 
 
@@ -36,7 +38,7 @@ h1{
 
 .blogItem:hover{
     padding: 10px;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(105, 173, 219);
     color: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.3s ease-in-out;

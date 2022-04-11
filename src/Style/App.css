@@ -5,6 +5,12 @@
     display: flex;
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(rgb(69, 140, 215), rgb(0, 0, 0));
+    background-size: cover;
+}
+
+.App .plswrk{
+    width: 100%;
 }
 
 body{
