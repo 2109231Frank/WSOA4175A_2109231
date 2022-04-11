@@ -54,7 +54,7 @@
 .navbar #open .hiddenLinks{
     display: inherit;
     margin-left: 30px;
-    padding-top: 21.5%;
+    padding-top: 13.5%;
 }
 
 .navbar #close .hiddenLinks{
@@ -83,7 +83,7 @@
         display: none;
     }
 
-    .navbar .Rigth{
+    .navbar .Right{
         justify-content: flex-end;
         background-color: black;
         padding-right: 50px;
