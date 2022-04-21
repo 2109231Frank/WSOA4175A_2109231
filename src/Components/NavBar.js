@@ -29,7 +29,6 @@ export default class Navbar extends Component{
                     <img src={Icon}/>
                         <div className='hiddenLinks'>
                             <Link to = "/">HOME</Link>
-                            <Link to = "/About">ABOUT</Link>
                             <Link to = "/Blogs">BLOGS</Link>
                             <Link to = "/Wireframe">WIREFRAME</Link>
                         </div>
@@ -37,7 +36,6 @@ export default class Navbar extends Component{
 
                 <div className='Right'>
                     <Link to = "/">HOME</Link>
-                    <Link to = "/About">ABOUT</Link>
                     <Link to = "/Blogs">BLOGS</Link>
                     <Link to = "/Wireframe">WIREFRAME</Link>
                     <button onClick = {this.toggleNav}><MenuIcon/></button>

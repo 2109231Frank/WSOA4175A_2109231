@@ -7,9 +7,6 @@
     align-items: left;
     flex-direction: column;
     padding-bottom: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .blog h1{
@@ -29,20 +26,25 @@
 @media only screen and (max-width: 800px){
     .blog p{
         font-size: 18px;
+        padding-left: 8px;
         width: 70%;
-        padding-left: 15%;
+    }
+
+    .blog h1{
+        padding-top: 30px;
     }
 }
 
 
 @media only screen and (max-width: 500px){
     .blog p{
-        font-size: 20px;
-        width: 80%;
-        padding-left: 15%;
+        font-size: 15px;
+        width: 70%;
+        padding-left: 4px;
     }
 
     .blog h1{
         font-size: 25px;
+        padding-top: 60px;
     }
 }

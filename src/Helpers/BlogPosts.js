@@ -6,13 +6,15 @@ export const Bloglist = [
     },
 
     {
-        title: "Blogpost 2",
-        intro: "Just holding space",
+        title: "Design & Aesthetics",
+        intro: "In other words, these core principles should guide designers toward designing websites that have clear and effective UI, Good UX through navigation and other interactions, and finally the aesthetics of the site should be designed with the site’s sender, type, genre, and target audience in mind.",
+        link: "/blogs/blog2"
     },
 
     {
-        title: "Blogpost 3",
-        intro: "Just holding space",
+        title: "Internet, Society & Design Justice",
+        intro: "Design should follow the principles from the Design Justice Network in order to overcome design issues resulting in oppression, exploitation or unhappiness. I also agree with Spyros with regards to the importance of looking at the impact internet access has on society so that we can make a decision that could improve the quality of life of many people around the world.",
+        link: "/blogs/blog3"
     },
 
     {

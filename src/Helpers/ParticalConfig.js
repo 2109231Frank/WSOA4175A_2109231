@@ -2,13 +2,9 @@ const particleConfig = {
     particles: {
       number: {
         value: 100,
-        density: {
-          enable: false,
-          value_area: 1000
-        }
       },
       color: {
-        value: "#000000"
+        value: "rgb(221, 55, 55)"
       },
       shape: {
         type: "circle",
@@ -16,34 +12,16 @@ const particleConfig = {
           width: 0,
           color: "#000000"
         },
-        polygon: {
-          nb_sides: 5
-        },
-        image: {
-          src: "img/github.svg",
-          width: 100,
-          height: 100
-        }
+        
+       
       },
       opacity: {
         value: 0.8,
         random: true,
-        anim: {
-          enable: false,
-          speed: 1,
-          opacity_min: 0.1,
-          sync: false
-        }
       },
       size: {
-        value: 5,
+        value: 3,
         random: true,
-        anim: {
-          enable: false,
-          speed: 40,
-          size_min: 0.1,
-          sync: false
-        }
       },
       line_linked: {
         enable: false,
@@ -54,17 +32,11 @@ const particleConfig = {
       },
       move: {
         enable: true,
-        speed: 10,
-        direction: "top",
+        speed: 8,
+        direction: "none",
         random: true,
         straight: true,
         out_mode: "out",
-        bounce: false,
-        attract: {
-          enable: false,
-          rotateX: 200,
-          rotateY: 200
-        }
       }
     },
     interactivity: {
@@ -72,31 +44,14 @@ const particleConfig = {
       events: {
         onhover: {
           enable: true,
-          mode: "grab"
-        },
-        onclick: {
-          enable: false,
           mode: "repulse"
         },
         resize: true
       },
       modes: {
-        grab: {
-          distance: 120,
-          line_linked: {
-            opacity: 0.4
-          }
-        },
-        bubble: {
-          distance: 400,
-          size: 4,
-          duration: 0.3,
-          opacity: 1,
-          speed: 3
-        },
         repulse: {
           distance: 100,
-          duration: 0.4
+          duration: 0.1
         },
         push: {
           particles_nb: 4
@@ -106,6 +61,5 @@ const particleConfig = {
         }
       }
     },
-    retina_detect: false
   };
 export default particleConfig;
