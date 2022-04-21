@@ -10,6 +10,16 @@
     margin-top: 10%;
 }
 
+.wireframe p{
+    width: 70%;
+    justify-content: center;
+    text-align: justify;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    z-index: 1;
+}
+
+
 h1{
     font-size: 30px;
     font-weight: 800;

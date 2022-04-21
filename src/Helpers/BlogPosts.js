@@ -18,8 +18,9 @@ export const Bloglist = [
     },
 
     {
-        title: "Blogpost 4",
-        intro: "Just holding space",
+        title: "Self Reflection",
+        intro: " Throughout this block I believe that I have progressed practically. I have learned how to work with react as well as node. React was a very new experience, and it took me a while to get used to. ",
+        link: "/blogs/blog4"
     },
     
 ];

@@ -23,6 +23,15 @@
     z-index: 1;
 }
 
+.blog ul{
+    color: rgb(221, 221, 221);
+    width: 60%;
+    justify-content: center;
+    text-align: left;
+    z-index: 1;
+    margin-left: 15%;
+}
+
 @media only screen and (max-width: 800px){
     .blog p{
         font-size: 18px;
