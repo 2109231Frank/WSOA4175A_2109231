@@ -36,7 +36,8 @@ export default class Wireframe extends Component {
                 colours (dark red and black). I know that websites conventionally have lighter backgrounds 
                 with darker text, but I think that the opposite also works quite well. The colour pallette 
                 fits with my personal brand and I personally think it looks quite unique and is aesthetically 
-                pleasing. The font I chose is nothing crazy and is just off white in colour so that the contrast 
+                pleasing. The font I chose is nothing crazy (I did not want to distract from the actual content) 
+                and is just off white in colour so that the contrast 
                 is still high against the background while avoiding harshness on the eyes that I personally 
                 experience when looking at pure white text against a dark background. The layout of my website is 
                 simple and I have tried to deisgn it in such a way that it is clear and easy for the user to 
