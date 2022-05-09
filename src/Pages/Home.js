@@ -5,7 +5,7 @@ import MainIcon from "../Images/MainIcon.jpg";
 export default class Home extends Component {
   render() {
     return (
-      <div className='Home' style={{backgroundImage: `url(${MainIcon})`}}>
+      <div className='Home'>
         <div className='HeaderContainer'>
             <h1 className='homeh1'>FRANCO HAYES PHOTOGRAPHY</h1>
             <p className='homeP'>

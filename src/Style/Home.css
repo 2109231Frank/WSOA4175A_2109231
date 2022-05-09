@@ -1,5 +1,5 @@
 .Home{
-    margin-top: 10%;
+   
     padding-bottom: 150px;
     width: 100%;
     height: 90vh;
@@ -25,11 +25,11 @@
     font-size: 40px;
     height: 60px;
     font-weight: 800;
-    color: rgb(197, 28, 28);
+    color: rgb(221, 221, 221);
 }
 
 .homeP{
-    color: rgb(197, 28, 28);
+    color: rgb(221, 221, 221);
     width: 40%;
     text-align: left;
     font-size: 15px;

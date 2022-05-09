@@ -1,9 +1,7 @@
 .App{
     text-align: center;
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
     font-family: 'Rubik', sans-serif;
     background-image: radial-gradient(rgb(88, 31, 31), rgb(0, 0, 0));
     background-size: cover;
