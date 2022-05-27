@@ -14,9 +14,6 @@ export default class Home extends Component {
       <div className='bigPage'>
     
       <div className='Home' id='top'>
-      
-    <div className='bigpage'>
-      <div className='Home'>
       <article>
         <div className='HeaderContainer'>
             <h1 className='homeh1'>FRANCO HAYES PHOTOGRAPHY</h1>
@@ -33,9 +30,6 @@ export default class Home extends Component {
       <div className='Blogs' >
     <article>
       <h1 id='blogs'>INTERACTIVE MEDIA BLOGS</h1>
-
-      <div className='Blogs'>
-      <h1>INTERACTIVE MEDIA BLOGS</h1>
           <div className='bloglist'>
               {Bloglist.map((blogItem, value) => {
                   return(
@@ -47,8 +41,9 @@ export default class Home extends Component {
                       />)
               })}
           </div>
+          </article>
         </div>
-    </article>
+    
       </div>
       
 
@@ -92,12 +87,6 @@ export default class Home extends Component {
                 Overall, I am pretty happy with how this website turned out. 
             </p>
             </article>
-      </div>
-    </div>
-    
-
-                 
-          </div>
       </div>
     </main>
     )

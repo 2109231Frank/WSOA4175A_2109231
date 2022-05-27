@@ -2,7 +2,7 @@ import React, {component} from "react";
 import "./Style/App.css";
 import Navbar from "./Components/NavBar";
 import {Route, Switch} from "react-router-dom";
-import bigPage from "./Pages/Home";
+import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import blog1 from "./Pages/blogs/blog1";
 import blog2 from "./Pages/blogs/blog2";
@@ -20,7 +20,7 @@ function App()
 
         <Navbar/>
         <Switch>
-            <Route exact path = "/" component = {bigPage}/>
+            <Route exact path = "/" component = {Home}/>
                     <Route exact path = "/blogs/blog1" component = {blog1}/>
                     <Route exact path = "/blogs/blog2" component = {blog2}/>
                     <Route exact path = "/blogs/blog3" component = {blog3}/>
