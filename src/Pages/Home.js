@@ -6,8 +6,6 @@ import { Bloglist } from '../Helpers/BlogPosts';
 import BlogItem from "../Components/BlogItem";
 import { Wireframelist } from '../Helpers/WireframeList';
 import WireframeItem from '../Components/WireframesItem';
-import { Bloglist } from '../Helpers/BlogPosts';
-import BlogItem from "../Components/BlogItem";
 
 export default class Home extends Component {
   render() {
