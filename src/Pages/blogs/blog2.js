@@ -3,10 +3,14 @@ import "../../Style/mainBlogs.css";
 
 
 export default class blog1 extends Component {
+  componentDidMount() {
+    window.scroll(0, 0);
+    }
   render() {
     return (
       <div className='blog'>
-          <h1>Design And Aesthetics</h1>
+        <article> 
+          <h1>Design And Aesthetics    <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
 
           <p>
           According to Ji Yong Park in Design Principles For Interactive User Experience Through Net Art: 
@@ -61,6 +65,7 @@ export default class blog1 extends Component {
           aesthetics of the site should be designed with the site’s sender, type, genre, and target audience 
           in mind.
           </p>
+          </article>
       </div>
     )
   }

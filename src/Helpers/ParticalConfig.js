@@ -1,10 +1,10 @@
 const particleConfig = {
     particles: {
       number: {
-        value: 100,
+        value: 10,
       },
       color: {
-        value: "rgb(221, 55, 55)"
+        value: "rgb(218, 218, 218)"
       },
       shape: {
         type: "circle",
@@ -16,11 +16,11 @@ const particleConfig = {
        
       },
       opacity: {
-        value: 0.8,
+        value: 0.9,
         random: true,
       },
       size: {
-        value: 3,
+        value: 5,
         random: true,
       },
       line_linked: {
@@ -32,7 +32,7 @@ const particleConfig = {
       },
       move: {
         enable: true,
-        speed: 8,
+        speed: 5,
         direction: "none",
         random: true,
         straight: true,

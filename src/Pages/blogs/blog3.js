@@ -3,10 +3,14 @@ import "../../Style/mainBlogs.css";
 
 
 export default class blog3 extends Component {
+  componentDidMount() {
+    window.scroll(0, 0);
+    }
   render() {
     return (
       <div className='blog'>
-          <h1>Internet, Society and Design Justice</h1>
+         <article>
+          <h1>Internet, Society and Design Justice   <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
 
           <p>
           In Sasha Costanza-Chock’s article Traveling While Trans they talk about design justice. 
@@ -74,6 +78,7 @@ export default class blog3 extends Component {
           of looking at the impact internet access has on society so that we can make a decision that could 
           improve the quality of life of many people around the world.
           </p>
+          </article>
       </div>
     )
   }

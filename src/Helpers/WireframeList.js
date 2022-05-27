@@ -1,21 +1,33 @@
-import Homepage from "../Images/Homepage.png";
+import TopSection from "../Images/Homepage.png";
 import BlogsPage from "../Images/BlogsPage.png";
-import BlogsListPage from "../Images/BlogsListPage.png";
+import BlogsSection from "../Images/BlogsListPage.png";
+import WireframeSection from "../Images/wireframeWireframe.png";
+import BigPageWire from "../Images/bigPage.png";
 
 export const Wireframelist = [
     {
-        title: "Home Page",
-        image: Homepage
+        title: "Top Section",
+        image: TopSection
+    },
+
+    {
+        title: "Blog Section",
+        image: BlogsSection
     },
 
     {
         title: "Blog Page",
-        image: BlogsListPage
+        image: BlogsPage
     },
 
     {
-        title: "Blog Open Page",
-        image: BlogsPage
+        title: "Wireframe Section",
+        image: WireframeSection
+    },
+
+    {
+        title: "Overall Page",
+        image: BigPageWire,
     },
     
 ];

@@ -3,10 +3,18 @@ import "../../Style/mainBlogs.css";
 
 
 export default class blog1 extends Component {
+  componentDidMount() {
+    window.scroll(0, 0);
+    }
+
+    
+
   render() {
     return (
+      
       <div className='blog'>
-          <h1>Indirect Flights - Analysis</h1>
+        <article>
+          <h1>Indirect Flights - Analysis   <a href='javascript:history.back()' className='backLink'>BACK</a></h1> 
 
           <p>
           For this analysis I have chosen the net/web artwork, Indirect Flights 2015 by Joe Hamilton 
@@ -68,6 +76,7 @@ export default class blog1 extends Component {
           these readings could add to Indirect Flights apart from that which the artist has already said 
           about his own work.
           </p>
+        </article>
       </div>
     )
   }
