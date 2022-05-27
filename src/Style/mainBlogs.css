@@ -22,6 +22,8 @@
 .blog .backLink:hover{
     font-size: 27px;
     color: rgb(104, 104, 104);
+    padding-bottom: 50px;
+    padding-top: 10%;
 }
 
 .blog h1{

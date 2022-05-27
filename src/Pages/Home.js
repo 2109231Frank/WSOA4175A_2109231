@@ -6,6 +6,8 @@ import { Bloglist } from '../Helpers/BlogPosts';
 import BlogItem from "../Components/BlogItem";
 import { Wireframelist } from '../Helpers/WireframeList';
 import WireframeItem from '../Components/WireframesItem';
+import { Bloglist } from '../Helpers/BlogPosts';
+import BlogItem from "../Components/BlogItem";
 
 export default class Home extends Component {
   render() {
@@ -14,6 +16,9 @@ export default class Home extends Component {
       <div className='bigPage'>
     
       <div className='Home' id='top'>
+      
+    <div className='bigpage'>
+      <div className='Home'>
       <article>
         <div className='HeaderContainer'>
             <h1 className='homeh1'>FRANCO HAYES PHOTOGRAPHY</h1>
@@ -30,6 +35,9 @@ export default class Home extends Component {
       <div className='Blogs' >
     <article>
       <h1 id='blogs'>INTERACTIVE MEDIA BLOGS</h1>
+
+      <div className='Blogs'>
+      <h1>INTERACTIVE MEDIA BLOGS</h1>
           <div className='bloglist'>
               {Bloglist.map((blogItem, value) => {
                   return(
@@ -38,12 +46,10 @@ export default class Home extends Component {
                       title = {blogItem.title}
                       intro = {blogItem.intro}
                       link = {blogItem.link}
-                      />
-                      
-                  )
-                  
+                      />)
               })}
           </div>
+        </div>
     </article>
       </div>
       
@@ -52,6 +58,7 @@ export default class Home extends Component {
             <h1 id='wires'>STYLE</h1>
 
             <div className='wireframelist'>
+                <article>
                 <h2>Wireframes</h2>
                 <div>
                 {Wireframelist.map((wireframeItem, value) => {
@@ -64,6 +71,7 @@ export default class Home extends Component {
                     )
                 })}
                 </div>
+                </article>
             </div>
             <article>
             <h2>Style Guide</h2>
@@ -88,9 +96,12 @@ export default class Home extends Component {
             </article>
       </div>
     </div>
-    </main>
-
     
+
+                 
+          </div>
+      </div>
+    </main>
     )
   }
 }
