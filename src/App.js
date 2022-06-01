@@ -8,6 +8,9 @@ import blog1 from "./Pages/blogs/blog1";
 import blog2 from "./Pages/blogs/blog2";
 import blog3 from "./Pages/blogs/blog3";
 import blog4 from "./Pages/blogs/blog4";
+import blog5 from "./Pages/blogs/blog5";
+import blog6 from "./Pages/blogs/blog6";
+import blog7 from "./Pages/blogs/blog7";
 import Particles from "./Components/Background";
 
 function App()
@@ -24,7 +27,10 @@ function App()
                     <Route exact path = "/blogs/blog1" component = {blog1}/>
                     <Route exact path = "/blogs/blog2" component = {blog2}/>
                     <Route exact path = "/blogs/blog3" component = {blog3}/>
-                    <Route exact path = "/blogs/blog4" component = {blog4}/>    
+                    <Route exact path = "/blogs/blog4" component = {blog4}/>
+                    <Route exact path = "/blogs/blog5" component = {blog5}/>
+                    <Route exact path = "/blogs/blog6" component = {blog6}/>
+                    <Route exact path = "/blogs/blog7" component = {blog7}/>    
         </Switch>
         <Footer/>
         <div className="plswork">

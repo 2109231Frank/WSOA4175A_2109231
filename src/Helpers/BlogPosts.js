@@ -22,5 +22,23 @@ export const Bloglist = [
         intro: " Throughout this block I believe that I have progressed practically. I have learned how to work with react as well as node. React was a very new experience, and it took me a while to get used to. ",
         link: "/blogs/blog4"
     },
+
+    {
+        title: "Preparatory Work",
+        intro: "  My website is my artwork. My plan is to use the CSS to manipulate the layout, colours, and the background to evoke a feeling of loneliness and desperation for connection.  ",
+        link: "/blogs/blog5"
+    },
+
+    {
+        title: "Self Reflection 2",
+        intro: "Going forward I believe I can improve both the site and the net-art side of it by adding more interactive elements. How I would do this I'm not too sure yet, but for the time being I'm pleased with how my website turned out since it does do what I wanted it to.",
+        link: "/blogs/blog6"
+    },
+
+    {
+        title: "Net-Art Prototype",
+        intro: "My internet artwork is a website that consists of three sections, they are seperated by a long empty space. This empty space as well as the slow moving particles that are avoiding the user's cursor, and the cold colour of the background are the main elements of the artwork.",
+        link: "/blogs/blog7"
+    },
     
 ];

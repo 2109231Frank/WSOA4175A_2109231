@@ -74,7 +74,10 @@ export default class blog1 extends Component {
           <p>
           In sum, I agree with both Carrier and Danae to some extent, but I fail to see the value that 
           these readings could add to Indirect Flights apart from that which the artist has already said 
-          about his own work.
+          about his own work. This has led me to realize how young internet art actually is compared to 
+          traditional art. I believe that with time we will have better/more effective framewroks and criteria 
+          to keep in mind when looking and talking about net-art, but for now (at least from my point of view) 
+          everything is still very new and experimental.
           </p>
         </article>
       </div>

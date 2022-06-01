@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "../Style/NavBar.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from 'react-scroll'
+import myAudio from '../Pages/Home.js'
 
 export default class Navbar extends Component{
     constructor(props)
@@ -28,15 +29,16 @@ export default class Navbar extends Component{
                  
                         <div className='hiddenLinks'>
                             <Link to="top" spy={true} smooth={true} offset={20} duration={1500}>TOP</Link>
-                            <Link to="blogs" spy={true} smooth={true} offset={20} duration={1500}>BLOGS</Link>
-                            <Link to="wires" spy={true} smooth={true} offset={20} duration={1500}>WIREFRAMES</Link>
+                            <Link to="blogs" spy={true} smooth={true} offset={3300} duration={1500}>BLOGS</Link>
+                            <Link to="wires" spy={true} smooth={true} offset={3300} duration={1500}>WIREFRAMES</Link>
                         </div>
                 </div>
 
                 <div className='Right'>
                     <Link to="top" spy={true} smooth={true} offset={20} duration={1500}>TOP</Link>
-                    <Link to="blogs" spy={true} smooth={true} offset={20} duration={1500}>BLOGS</Link>
-                    <Link to="wires" spy={true} smooth={true} offset={20} duration={1500}>WIREFRAMES</Link>
+                    <Link to="blogs" spy={true} smooth={true} offset={3300} duration={1500}>BLOGS</Link>
+                    <Link to="wires" spy={true} smooth={true} offset={3300} duration={1500}>WIREFRAMES</Link>
+                    
                     <button onClick = {this.toggleNav}><MenuIcon/></button>
                 </div>
             </div>

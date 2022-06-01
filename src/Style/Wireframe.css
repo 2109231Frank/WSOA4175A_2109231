@@ -7,11 +7,10 @@
     flex-direction: column;
     padding-bottom: 50px;
     z-index: 1;
-    padding-top: 3000px;
     padding-top: 10%;
 }
 
-.wireframe p{
+.wireframe  .styleGuide{
     width: 70%;
     justify-content: center;
     align-content: center;
@@ -19,6 +18,7 @@
     color: rgb(221, 221, 221);
     padding: 10px;
     z-index: 1;
+    font-size: 20px;
 }
 
 
@@ -26,12 +26,18 @@
     font-size: 30px;
     font-weight: 800;
     color: rgb(218, 218, 218);
-    padding-top: 200px;
+    padding-top: 3500px;
 }
 
-h2{
+.wireframe h2{
     font-weight: 800;
     color: rgb(218, 218, 218);
+}
+
+.wireframe .styleGuide h2{
+    font-weight: 800;
+    color: rgb(218, 218, 218);
+    text-align: center;
 }
 
 h3{
@@ -46,7 +52,9 @@ h3{
     height: 400px;
     padding: 10px;
     margin: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(8px);
+    z-index: 9999999999999;
 }
 
 .wireframeItem div{

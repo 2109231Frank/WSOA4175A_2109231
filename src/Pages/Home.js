@@ -6,28 +6,50 @@ import { Bloglist } from '../Helpers/BlogPosts';
 import BlogItem from "../Components/BlogItem";
 import { Wireframelist } from '../Helpers/WireframeList';
 import WireframeItem from '../Components/WireframesItem';
+// import song from '../Audio/bensound-tomorrow.mp3';
 
+
+// let sadSong = new Audio(song); 
+
+// window.onscroll = function (e) {
+//     if (typeof sadSong.loop == 'boolean')
+// {
+//     sadSong.loop = true;
+// }
+// else
+// {
+//     sadSong.addEventListener('ended', function() {
+//         this.currentTime = 0;
+//         this.play();
+//     }, false);
+// }
+// sadSong.play();
+//     console.log("scrolling");
+// }
 export default class Home extends Component {
   render() {
     return (
     <main>  
       <div className='bigPage'>
     
-      <div className='Home' id='top'>
+      <section className='Home' id='top'>
       <article>
         <div className='HeaderContainer'>
-            <h1 className='homeh1'>FRANCO HAYES PHOTOGRAPHY</h1>
+            <h1 className='homeh1'>franco steyn</h1>
             <p className='homeP'>
-                This is where I like to talk about things I find interesting (see blogs page), 
-                as well as share some of my photographs and writing pieces (coming soon).
+                This website is a net-art piece. It symbolizes how the internet allows people to substitute 
+                genuine human connectivity and interaction with online interaction and communication - which 
+                ultimately does not meet the needs we have as social beings. Please, scroll to the next sections 
+                and take your time to feel what the art-piece is making you feel.
             </p>
+            <h2>Thank you for your time.</h2>
         </div>
       </article>
-      </div>
+      </section>
     
 
       
-      <div className='Blogs' >
+      <section className='Blogs' >
     <article>
       <h1 id='blogs'>INTERACTIVE MEDIA BLOGS</h1>
           <div className='bloglist'>
@@ -42,12 +64,12 @@ export default class Home extends Component {
               })}
           </div>
           </article>
-        </div>
+        </section>
     
-      </div>
+      
       
 
-      <div className='wireframe'>
+      <section className='wireframe'>
             <h1 id='wires'>STYLE</h1>
 
             <div className='wireframelist'>
@@ -66,27 +88,54 @@ export default class Home extends Component {
                 </div>
                 </article>
             </div>
-            <article>
+            <article className='styleGuide'>
             <h2>Style Guide</h2>
             <p>
-                It is quite obvious that my site is very differernt from my wireframes in terms of 
-                colour and some layout decisions. This is because as soon as I started working on 
-                the site I decided to make it a personal website (for my photography and creative 
-                writing - which I will add at a later stage) and thus I wanted to use some of my favourite 
-                colours (dark red and black). I know that websites conventionally have lighter backgrounds 
-                with darker text, but I think that the opposite also works quite well. The colour pallette 
-                fits with my personal brand and I personally think it looks quite unique and is aesthetically 
-                pleasing. The font I chose is nothing crazy (I did not want to distract from the actual content) 
-                and is just off white in colour so that the contrast 
-                is still high against the background while avoiding harshness on the eyes that I personally 
-                experience when looking at pure white text against a dark background. The layout of my website is 
-                simple and I have tried to deisgn it in such a way that it is clear and easy for the user to 
-                navigate through my site. I looked at my previous websites as well as the example provided by 
-                Andre to help me with designing my website. The particle background is something I have 
-                wanted to put in a website for a long time, but couldn't because I did not know how to use react before now.
-                Overall, I am pretty happy with how this website turned out. 
+                With feedback regarding my previous website's style in mind I set out to create this site 
+                that is ultimately a net-art piece. I paid special attention to contrast this time around; 
+                I have made the background a pale-ish darkblue in order to make the werbsite feel cold, sad, 
+                and lonely (especially when scrolling through the vast empty space inbetween the sections). 
+                I then decided to make the text a very light grey so that it stands our very well against the 
+                background. I made the text grey instead of white seeing that pure white was a little harsh on 
+                my eyes so I attempted to make it easier to look at.
+            </p>
+            <p>
+                The particles in my background were kept from my previous website. They were slowed down in order 
+                to bring the energy in the background down, I found that slow moving particles evoked a sadder emotion 
+                when navigating through the site. It almost makes it feel like you're looking into the depths of the 
+                ocean, nothingness as far as the eye can see. This specifically was perfect for what I wanted to create - 
+                it screamed emptiness (in a matter of speaking) when scrolling through the empty spaces. I also decreased the 
+                number of particals with the goal of makiing the interaction with them rare, I did this because I wanted the 
+                user to feel almost desperate to come in contact with the particles. This desperation was key to 
+                get my point across.
+            </p>
+            <p>
+                The blogs section of the website also was change a bit from the original. I made the items smaller and 
+                as soon as the user hovers over one of the items they will expand and show a brief intro to what that blog 
+                is about. I did this for two main reasons: The first is that I wanted it to look a little emptier than it did 
+                originally to add to the intended experience, and the second reason I did this is because I wanted to make the 
+                interaction with the items a little more interesting. I wanted to add this specific interaction as a relief almost 
+                to the nothingness on the webpage, this is symbolic to the relief I felt when interacting with friends and 
+                family online during lockdown. It is supposed to be a brief interaction that immediately goes back to being 
+                part of the emptinessof the site when the user moves on - leaving them with the same emotion I am trying to 
+                evoke. 
+            </p>
+            <p>
+                The elephant in the room is of course the vast empty space inbetween the sections of the website. 
+                This space is the key to my net-art piece - it was designed to evoke loneliness, sadness, and desperation 
+                for interaction while it's being scrolled through. The exact length of the spaces was decided on after many 
+                iterations. For me personally (and hopefully for you too) the distance is perfect for evoking the intended 
+                emotions. I added a song that played while the website was open, but after scrolling through the website for a 
+                while I noticed that having a song playing the entire time is quite annoying. I thus removed this. I did add 
+                links to the top of the page, but these are actually just for marking purposes - I added 
+                the links so that markers could navigate to the actual content of the website without having to scroll for 
+                too long. That being said, in order to experience my net-art piece you need to take your time and scroll through 
+                the websitel. I am pleased with how the art piece turned out seeing that it evokes emotions withing me 
+                personally that is very reminiscent of how I felt during lockdown with the almost meaningless interactions through 
+                the internet.
             </p>
             </article>
+      </section>
       </div>
     </main>
     )

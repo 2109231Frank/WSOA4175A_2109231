@@ -26,7 +26,7 @@ export default class blog1 extends Component {
           Designers often use the technology within the internet as fundamental elements of their art, for 
           example: code used to manipulate what the screen displays. These elements refer to design elements 
           that are not created externally (they exist on the internet, thus anything you can find on the web 
-          could become a design element. Park states that understanding these elements that exist on the web 
+          could become a design element). Park states that understanding these elements that exist on the web 
           could be important for web designers as well as artists in terms of user experience 
           (Park, 2007: pp 4-5). I believe that it is important that as web designers we remind ourselves 
           that the internet is both canvas and design material so that we can effectively utilize the web 
@@ -38,7 +38,10 @@ export default class blog1 extends Component {
           these design principles correlate with web design itself. Except interactivity which is at the core 
           of web art and web design: both fields require good UI to allow smooth interaction with the user. 
           What I take from Park’s article is that the core principles of design and aesthetic for the web 
-          revolve around UI and UX, in order to allow the user to interact with the site/artwork effectively.
+          revolve around UI and UX, in order to allow the user to interact with the site/artwork effectively. 
+          And I will keep this in mind movng forward, I believe that it is important for web designers to create 
+          UI in such a way that it makes using what is being designed fun, easy, and interesting. Good UI is 
+          the foundation of good UX.
           </p>
           <p>
           Lisbeth Thorlacius in her article, The Role Of Aesthetics In Web Design, explains where aesthetics 
@@ -63,7 +66,11 @@ export default class blog1 extends Component {
           In other words, these core principles should guide designers toward designing websites that have 
           clear and effective UI, Good UX through navigation and other interactions, and finally the 
           aesthetics of the site should be designed with the site’s sender, type, genre, and target audience 
-          in mind.
+          in mind. I completely agree with these points, I also believe that first impressions mnake a big impact 
+          when it comes to websites, I don't think every site needs to be completely gorgeous, but if a site 
+          looks terrible, untidy or sloppy, it will most certainly hinder the user's overall enjoyment when 
+          interacting with said site. This also leads to how simple and fun it is to navigate through or use 
+          a website; if a site is ugly or if the layout isn't thought out well it will make using the website difficult. 
           </p>
           </article>
       </div>

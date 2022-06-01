@@ -7,7 +7,6 @@
     flex-direction: column;
     padding-bottom: 50px;
     z-index: 1;
-    padding-top: 3000px;
     padding-top: 10%;
 }
 
@@ -18,6 +17,7 @@
     font-weight: 800;
     color: rgb(218, 218, 218);
     padding-top: 200px;
+    padding-top: 3500px;
 }
 
 .bloglist{
@@ -26,22 +26,23 @@
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    
 }
 
 .blogItem{
     width: 310px;
     height: 50px;
-    margin: 40px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(8px);
     color: rgb(218, 218, 218);
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 28px, rgba(0, 0, 0, 0.22) 0px 20px 10px;
+    
 }
 
 .blogItem:hover{
     padding: 10px;
     height: auto;
-    background-color: rgb(0, 0, 0);
     transition: 0.1s ease-in-out;
     cursor: pointer;
     color: rgb(218, 218, 218);
