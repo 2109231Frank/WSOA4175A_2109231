@@ -40,5 +40,11 @@ export const Bloglist = [
         intro: "My internet artwork is a website that consists of three sections, they are seperated by a long empty space. This empty space as well as the slow moving particles that are avoiding the user's cursor, and the cold colour of the background are the main elements of the artwork.",
         link: "/blogs/blog7"
     },
+
+    {
+        title: "References",
+        intro: "These are the references I used to write my blogposts",
+        link: "/blogs/blog8"
+    },
     
 ];

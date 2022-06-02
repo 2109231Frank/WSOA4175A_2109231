@@ -34,7 +34,7 @@ export default class Home extends Component {
     
       <section className='Home' id='top'>
       <article>
-        <div className='HeaderContainer'>
+        <header className='HeaderContainer'>
             <h1 className='homeh1'>franco steyn</h1>
             <p className='homeP'>
                 This website is a net-art piece. It symbolizes how the internet allows people to substitute 
@@ -43,7 +43,7 @@ export default class Home extends Component {
                 and take your time to feel what the art-piece is making you feel.
             </p>
             <h2>Thank you for your time.</h2>
-        </div>
+        </header>
       </article>
       </section>
     
