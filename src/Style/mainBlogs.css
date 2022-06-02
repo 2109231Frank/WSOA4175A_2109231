@@ -66,18 +66,39 @@
     .blog h1{
         padding-top: 30px;
     }
+
+    .blog ul{
+        width: 70%;
+    }
 }
 
 
 @media only screen and (max-width: 500px){
     .blog p{
-        font-size: 15px;
+        font-size: 17px;
         width: 70%;
         padding-left: 4px;
     }
 
     .blog h1{
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 60px;
+    }
+
+    .blog h2{
+        font-size: 17px;
+    }
+
+    .blog ul{
+        font-size: 17px;
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .blog .backLink{
+        font-size: 18px;
+    }
+    .blog .backLink:hover{
+        font-size: 18px;
     }
 }

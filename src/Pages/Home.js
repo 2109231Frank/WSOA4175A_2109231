@@ -34,7 +34,7 @@ export default class Home extends Component {
     
       <section className='Home' id='top'>
       <article>
-        <header className='HeaderContainer'>
+        <header className='headerContainer'>
             <h1 className='homeh1'>franco steyn</h1>
             <p className='homeP'>
                 This website is a net-art piece. It symbolizes how the internet allows people to substitute 
@@ -52,7 +52,7 @@ export default class Home extends Component {
       <section className='Blogs' >
     <article>
       <h1 id='blogs'>INTERACTIVE MEDIA BLOGS</h1>
-          <div className='bloglist'>
+          <div className='blogList'>
               {Bloglist.map((blogItem, value) => {
                   return(
                       <BlogItem
@@ -72,7 +72,7 @@ export default class Home extends Component {
       <section className='wireframe'>
             <h1 id='wires'>STYLE</h1>
 
-            <div className='wireframelist'>
+            <div className='wireframeList'>
                 <article>
                 <h2>Wireframes</h2>
                 <div>

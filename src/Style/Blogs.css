@@ -20,7 +20,7 @@
     padding-top: 3500px;
 }
 
-.bloglist{
+.blogList{
     width: 70vw;
     height: auto;
     display: grid;
@@ -71,20 +71,19 @@
 }
 
 @media only screen and (max-width: 800px){
-    .bloglist{
+    .blogList{
         width: 60vw;
         padding-right: 15%;
     }
 }
 
 @media only screen and (max-width: 600px){
-    .bloglist{
+    .blogList{
         grid-template-columns: 1fr;
-        padding-right: 5%;
+        padding-right: 55px;
     }
 
    .Blogs h1{
         font-size: 20px;
-        padding-top: 70px;
     }
 }
