@@ -1,7 +1,26 @@
+// setInterval(function checkScroll(){
+//   var scrollPosition = document.documentElement.scrollTop;
+//   return scrollPosition,
+//   console.log(scrollPosition);
+// }, 1000);
+
+
+// setInterval(function changeAmount(){
+//   if(scrollPosition > 0 && scrollPosition < 800)
+//   {
+//     particleAmount == 30;
+//   }
+//   else
+//   {
+//     particleAmount == 10;
+//   }
+// }, 1000);
+
+
 const particleConfig = {
     particles: {
-      number: {
-        value: 10,
+      number: {       
+        value: 15,
       },
       color: {
         value: "rgb(218, 218, 218)"

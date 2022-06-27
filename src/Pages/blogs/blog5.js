@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../../Style/mainBlogs.css";
 
 
-export default class blog3 extends Component {
+export default class blog5 extends Component {
   componentDidMount() {
     window.scroll(0, 0);
     }
@@ -10,7 +10,7 @@ export default class blog3 extends Component {
     return (
       <div className='blog'>
          <article>
-          <h1>Net-Art Preparatory Work  <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+         <header><h1>Net-Art Preparatory Work</h1></header>
         
       <section>
         <h2>The Idea</h2>
@@ -29,11 +29,11 @@ export default class blog3 extends Component {
           </p>
           <p>
           Sawako Yokochi and Takeshi Okada in their article - The Process of Art-making and Creative Expertise: An 
-          Analysis of Artists' Process Modification – propose a creation model, “to investigate the relation between 
-          artistic cognitive processes and the formation of artists’ goals.” In which they describe three different 
+          Analysis of Artists' Process Modification – propose a creation model, <q>to investigate the relation between 
+          artistic cognitive processes and the formation of artists’ goals.</q> In which they describe three different 
           types of analogical modifications: Subject, Structure, and Concept modification. These methods of modifications 
           are basically ways in which artists modify their previous works/methodologies in such a way to create new artworks 
-          that align better with their artistic visions (Sawako Yokochi, 2020). 
+          that align better with their artistic visions <cite>(Sawako Yokochi, 2020)</cite>. 
           </p>
           <p>
           For my artwork I will be modifying the subject and concept of my previous website in such a way that it creates a 
@@ -61,8 +61,9 @@ export default class blog3 extends Component {
           much external influence.
           </p>
       </section>
+      <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

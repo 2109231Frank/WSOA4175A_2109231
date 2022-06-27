@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import "../../Style/mainBlogs.css";
 
 
-export default class blog1 extends Component {
+export default class blog2 extends Component {
   componentDidMount() {
     window.scroll(0, 0);
     }
@@ -10,12 +10,12 @@ export default class blog1 extends Component {
     return (
       <div className='blog'>
         <article> 
-          <h1>Design And Aesthetics    <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+        <header><h1>Design And Aesthetics</h1></header>
 
           <p>
           According to Ji Yong Park in Design Principles For Interactive User Experience Through Net Art: 
           Understanding net artists as “activists in cyberspace” is a very important step towards 
-          understanding the principles of web design with regards to user experience (Park, 2007: p. 3). 
+          understanding the principles of web design with regards to user experience <cite>(Park, 2007: p. 3)</cite>. 
           </p>
           <p>
           Although Park’s article focuses more on web art, I still think it could be beneficial to look at 
@@ -28,7 +28,7 @@ export default class blog1 extends Component {
           that are not created externally (they exist on the internet, thus anything you can find on the web 
           could become a design element). Park states that understanding these elements that exist on the web 
           could be important for web designers as well as artists in terms of user experience 
-          (Park, 2007: pp 4-5). I believe that it is important that as web designers we remind ourselves 
+          <cite>(Park, 2007: pp 4-5)</cite>. I believe that it is important that as web designers we remind ourselves 
           that the internet is both canvas and design material so that we can effectively utilize the web 
           towards our goals.
           </p>
@@ -48,16 +48,16 @@ export default class blog1 extends Component {
           play major roles in the design of a successful website. One of these areas is functionality, where 
           Thorlacius explains that the main objective of a website should be to allow the user to interact 
           with the site effectively. The user should be able to efficiently find the information they want 
-          while also being able to easily navigate the site (Thorlacius, 2007, p. 64). She goes on to explain 
+          while also being able to easily navigate the site <cite>(Thorlacius, 2007, p. 64)</cite>. She goes on to explain 
           that functionality on a website is not everything, designers should not neglect visual design and 
           how it effects UX. Websites don’t have to be artworks, but designers should carefully consider how 
-          visual aesthetics influence how their websites are received (Thorlacius, 2007, pp. 64-65).
+          visual aesthetics influence how their websites are received <cite>(Thorlacius, 2007, pp. 64-65)</cite>.
           </p>
           <p>
           According to Thorlacius Aesthetics effect how the sender is perceived. Meaning that how a website 
           looks can change how the person that “owns” the website is viewed by users. It also effects the 
           navigation and interaction of the site, it is thus important that the aesthetics of a website 
-          matches the type of website, the genre of website, and the target audience (Thorlacius, 2007).
+          matches the type of website, the genre of website, and the target audience <cite>(Thorlacius, 2007)</cite>.
           </p>
           <p>
           In conclusion, after looking at these two articles I believe that the core principles of design 
@@ -72,8 +72,9 @@ export default class blog1 extends Component {
           interacting with said site. This also leads to how simple and fun it is to navigate through or use 
           a website; if a site is ugly or if the layout isn't thought out well it will make using the website difficult. 
           </p>
+          <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

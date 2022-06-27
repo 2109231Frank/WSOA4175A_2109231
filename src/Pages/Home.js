@@ -26,6 +26,15 @@ import WireframeItem from '../Components/WireframesItem';
 // sadSong.play();
 //     console.log("scrolling");
 // }
+
+//w3schools - How TO - Scroll Indicator - https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
+window.onscroll = function() {progressFunction()};
+function progressFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("scrollBar").style.width = scrolled + "%";
+};
 export default class Home extends Component {
   render() {
     return (
@@ -35,14 +44,14 @@ export default class Home extends Component {
       <section className='Home' id='top'>
       <article>
         <header className='headerContainer'>
-            <h1 className='homeh1'>franco steyn</h1>
+            <h1 className='homeh1'>THE INTERNET IS LONELY</h1>
             <p className='homeP'>
                 This website is a net-art piece. It symbolizes how the internet allows people to substitute 
                 genuine human connectivity and interaction with online interaction and communication - which 
                 ultimately does not meet the needs we have as social beings. Please, scroll to the next sections 
                 and take your time to feel what the art-piece is making you feel.
             </p>
-            <h2>Thank you for your time.</h2>
+            <p className='thankYou'>Thank you for your time.</p>
         </header>
       </article>
       </section>
@@ -51,17 +60,19 @@ export default class Home extends Component {
       
       <section className='Blogs' >
     <article>
-      <h1 id='blogs'>INTERACTIVE MEDIA BLOGS</h1>
+      <h2 id='blogs'>INTERACTIVE MEDIA BLOGS</h2>
           <div className='blogList'>
-              {Bloglist.map((blogItem, value) => {
+              {Bloglist.map((blogItemComponents, value) => {
                   return(
                       <BlogItem
                       value = {value}
-                      title = {blogItem.title}
-                      intro = {blogItem.intro}
-                      link = {blogItem.link}
-                      />)
-              })}
+                      title = {blogItemComponents.title}
+                      intro = {blogItemComponents.intro}
+                      link = {blogItemComponents.link}
+                      />);
+              }
+            )
+          };
           </div>
           </article>
         </section>
@@ -70,11 +81,11 @@ export default class Home extends Component {
       
 
       <section className='wireframe'>
-            <h1 id='wires'>STYLE</h1>
+            <h2 id='wires'>STYLE</h2>
 
             <div className='wireframeList'>
                 <article>
-                <h2>Wireframes</h2>
+                <h3>Wireframes</h3>
                 <div>
                 {Wireframelist.map((wireframeItem, value) => {
                     return(
@@ -82,14 +93,15 @@ export default class Home extends Component {
                         value = {value}
                         title = {wireframeItem.title}
                         image = {wireframeItem.image}
+                        alt = {wireframeItem.alt}
                         />
-                    )
-                })}
+                    );
+                })};
                 </div>
                 </article>
             </div>
             <article className='styleGuide'>
-            <h2>Style Guide</h2>
+            <h3>Style Guide</h3>
             <p>
                 With feedback regarding my previous website's style in mind I set out to create this site 
                 that is ultimately a net-art piece. I paid special attention to contrast this time around; 
@@ -138,7 +150,7 @@ export default class Home extends Component {
       </section>
       </div>
     </main>
-    )
-  }
-}
+    );
+  };
+};
 

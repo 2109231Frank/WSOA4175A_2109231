@@ -46,5 +46,23 @@ export const Bloglist = [
         intro: "These are the references I used to write my blogposts",
         link: "/blogs/blog8"
     },
+
+    {
+        title: "Final Technical Reflection",
+        intro: "My goal for the technical side of this project was to add more features to my site in such a way that it improves the experience of my net art without muddying the site with random, unecesarry features. This proved to be challanging seeing that I have had very basic practice with react (I've only made two ReactJS sites) - this made experimenting with new React features an arduous endeavour.",
+        link: "/blogs/blog9"
+    },
+
+    {
+        title: "Final Creative Reflection",
+        intro: "For this iteration of the website I wanted to make some changes to the style of my site so that it emphasises the emotions that I am trying to evoke in the user so that it aligns with my net art - most of the changes I made to my design was because of my net art. After I have made the changes that I wanted to make I looked at the feedback from the previous version of this site.",
+        link: "/blogs/blog10"
+    },
+
+    {
+        title: "Net-Art Final",
+        intro: "My net-art is a piece that is spread across my entire site. It permeates the entire site because I needed my piece to be interacted with constantly while the user navigates the site. This was necessary because my piece is supposed to evoke certain emotions in the user that linger (like the loneliness many people could not escape during lockdown).",
+        link: "/blogs/blog11"
+    }
     
 ];

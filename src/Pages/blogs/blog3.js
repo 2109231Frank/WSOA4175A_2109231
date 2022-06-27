@@ -10,7 +10,7 @@ export default class blog3 extends Component {
     return (
       <div className='blog'>
          <article>
-          <h1>Internet, Society and Design Justice   <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+         <header><h1>Internet, Society and Design Justice</h1></header>
 
           <p>
           In Sasha Costanza-Chock’s article Traveling While Trans they talk about design justice. 
@@ -18,7 +18,7 @@ export default class blog3 extends Component {
           subject to discomfort/discrimination by the hands of inequal design. Design justice refers 
           to design that follows a few core principles in order to overcome “how larger systems—including 
           norms, values, and assumptions—are encoded in and reproduced through the design of sociotechnical 
-          systems” (Costanza-Chock, 2020). These principles (explained by the Design Justice Network) guide 
+          systems” <cite>(Costanza-Chock, 2020)</cite>. These principles (explained by the Design Justice Network) guide 
           designers towards design that:
           </p>
           <ul>
@@ -36,7 +36,7 @@ export default class blog3 extends Component {
                   design options.</li>
           </ul>
           <p>
-          (Design Justice Network, 2016)
+          <cite>(Design Justice Network, 2016)</cite>
           </p>
           <p>
           Thus, the issues revolving around design justice has to do with threats to the community, 
@@ -50,18 +50,18 @@ export default class blog3 extends Component {
           well. Spyros goes on to explain that a few international organizations also see internet access as 
           a basic human right. However, in January of 2020 the Indian supreme court has declared it a 
           fundamental human right to have access to the internet in the digital age we live in 
-          (Kasapis, 2020, p. 2). 
+          <cite>(Kasapis, 2020, p. 2)</cite>. 
           </p>
           <p>
           Spyros states that the pandemic has brought to light the inequalities within capitalist societies 
           with regard to internet access. Social distancing and the minimisation of human contact 
           (in order to stop the spread of disease) has increased the need for internet access. Which excluded 
           people without internet access from taking part in the “new economy”. Meaning that they cannot buy 
-          goods or work (Kasapis, 2020, p. 2).
+          goods or work <cite>(Kasapis, 2020, p. 2)</cite>.
           </p>
           <p>
           Startling amounts of people across the globe do not have access to the internet, which excludes 
-          them from online education, information, and the labour market (Kasapis, 2020). Spyros concludes 
+          them from online education, information, and the labour market <cite>(Kasapis, 2020)</cite>. Spyros concludes 
           the article by explaining  the questions which highlights the issues surrounding internet and 
           society:
           </p>
@@ -69,7 +69,7 @@ export default class blog3 extends Component {
           “Should all citizens have access to the internet - regardless of income - and if so, are governments 
           supposed to take care of it? The second question is purely political. What should be the rules 
           governing the internet and who will set them? To this question, we want to provide some answers.” 
-          (Kasapis, 2020, p. 2).
+          <cite>(Kasapis, 2020, p. 2)</cite>.
           </p>
           <p>
           In conclusion I agree with both of the people I have spoken about above. I agree that design should 
@@ -78,8 +78,9 @@ export default class blog3 extends Component {
           of looking at the impact internet access has on society so that we can make a decision that could 
           improve the quality of life of many people around the world.
           </p>
+          <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

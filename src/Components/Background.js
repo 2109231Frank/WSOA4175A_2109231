@@ -6,4 +6,4 @@ export default function particleBackground(){
     return(
         <Particles params={particleConfig}></Particles>
     );
-}
+};

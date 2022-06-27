@@ -16,6 +16,6 @@ export default class Footer extends Component {
                 EMAIL ME - <a class = "e-mail" href = "2109231@students.wats.ac.za"> 2109231@students.wits.ac.za</a>
             </p>
       </div>
-    )
-  }
-}
+    );
+  };
+};

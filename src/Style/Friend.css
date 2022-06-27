@@ -1,0 +1,79 @@
+.friendsContainer{
+    width: 14vh;
+    height: 8vh;
+    background-color: rgba(28, 28, 28, 0.841);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    z-index: 999999999;
+    position: fixed;
+    margin-top: 4.2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 28px, rgba(0, 0, 0, 0.22) 0px 20px 20px;
+    
+}
+.friendsContainer #open .hiddenContent{
+    display: inherit;
+}
+
+.friendsContainer #close .hiddenContent{
+    display: none !important;
+}
+
+.friendsContainer #open .inheritContent{
+    display: none;
+}
+
+.friendsContainer #close .inheritContent{
+    display: inherit;
+}
+
+
+
+
+
+.openButton{
+    background-color: transparent;
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+    border: none;
+    padding: 0px;
+}
+
+.openButton:hover{
+    color: rgb(129, 129, 129);
+}
+
+.closeButton{
+    background-color: transparent;
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+    border: none;
+    padding-top: 2px;
+}
+
+.closeButton:hover{
+    color: rgb(129, 129, 129);
+}
+
+.boxTitle{
+    color: rgb(218, 218, 218);
+    font-size: 12px;
+}
+
+.boxText{
+    color: rgb(218, 218, 218);
+    font-size: 12px;
+    text-decoration:underline dotted;
+}
+
+@media only screen and (max-width: 800px){
+    .friendsContainer{
+        margin-top: 10.4%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .friendsContainer{
+        margin-top: 21.4%;
+    }
+}

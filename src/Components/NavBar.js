@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import "../Style/NavBar.css";
 import MenuIcon from '@mui/icons-material/Menu';
-import {Link} from 'react-scroll'
-import myAudio from '../Pages/Home.js'
+import {Link} from 'react-scroll';
+// import myAudio from '../Pages/Home.js';
 
 export default class Navbar extends Component{
     constructor(props)
@@ -24,7 +24,9 @@ export default class Navbar extends Component{
     render()
     {
         return(
+            <div className='navContainer'>
             <div className='navbar'>
+
                 <div className='Left' id = {this.state.showLinks ? "open" : "close"}>
                  
                         <div className='hiddenLinks'>
@@ -42,6 +44,10 @@ export default class Navbar extends Component{
                     <button onClick = {this.toggleNav}><MenuIcon/></button>
                 </div>
             </div>
-        )
-    }
-}
+            <div className='barContainer'>
+                <div className='progressBar' id='scrollBar'></div>
+            </div>
+            </div>
+        );
+    };
+};

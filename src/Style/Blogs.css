@@ -12,9 +12,9 @@
 
 
 
-.Blogs h1{
+.Blogs h2{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 100;
     color: rgb(218, 218, 218);
     padding-top: 200px;
     padding-top: 3500px;
@@ -29,18 +29,19 @@
     
 }
 
-.blogItem{
+.blogItemComponents{
     width: 310px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(52, 52, 52, 0.841);
     backdrop-filter: blur(8px);
     color: rgb(218, 218, 218);
     margin-bottom: 100px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 28px, rgba(0, 0, 0, 0.22) 0px 20px 10px;
     
+    
 }
 
-.blogItem:hover{
+.blogItemComponents:hover{
     padding: 10px;
     height: auto;
     transition: 0.1s ease-in-out;
@@ -48,7 +49,7 @@
     color: rgb(218, 218, 218);
 }
 
-.blogItem:hover p{
+.blogItemComponents:hover p{
     display: inherit;
     transition: 5s ease-in-out;
 }
@@ -57,17 +58,19 @@
     text-decoration: none;
 }
 
-.blogItem h2{
+.blogItemComponents h3{
     color: rgb(218, 218, 218);
     font-size: 18px;
     padding-top: 10px;
+    font-family: 'Indie Flower', cursive;
 }
-.blogItem p{
+.blogItemComponents p{
     font-size: 17px;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
     display: none;
+    font-family: 'Indie Flower', cursive;
 }
 
 @media only screen and (max-width: 800px){
@@ -83,7 +86,7 @@
         padding-right: 55px;
     }
 
-   .Blogs h1{
+   .Blogs h2{
         font-size: 20px;
     }
 }

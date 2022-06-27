@@ -6,11 +6,11 @@ export default class BlogItem extends Component {
     return (
       
       <Link to = {this.props.link}>
-        <div className='blogItem'>
-          <h2>{this.props.title}</h2>
+        <div className='blogItemComponents'>
+          <h3>{this.props.title}</h3>
           <p>{this.props.intro}</p>
       </div>
       </Link>
-    )
-  }
-}
+    );
+  };
+};

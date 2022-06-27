@@ -10,7 +10,7 @@ export default class blog4 extends Component {
     return (
       <div className='blog'>
           <article>
-          <h1>Self Reflection     <a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+          <header><h1>Self Reflection</h1></header>
 
           <p>
           Throughout this block I believe that I have progressed practically. I have learned how to work with react 
@@ -21,8 +21,9 @@ export default class blog4 extends Component {
           I have not been very motivated to spend alot of time on theory which I am embarrassed to admit. Overall I think 
           my perfromance this block was acceptable and I am happy with this first assignment.
           </p>
+          <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

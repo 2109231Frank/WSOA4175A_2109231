@@ -12,7 +12,11 @@ import blog5 from "./Pages/blogs/blog5";
 import blog6 from "./Pages/blogs/blog6";
 import blog7 from "./Pages/blogs/blog7";
 import blog8 from "./Pages/blogs/blog8";
+import blog9 from "./Pages/blogs/blog9";
+import blog10 from "./Pages/blogs/blog10";
+import blog11 from "./Pages/blogs/blog11";
 import Particles from "./Components/Background";
+import FriendBox from "./Components/FriendsWindow";
 
 function App()
 {
@@ -23,6 +27,7 @@ function App()
        
 
         <Navbar/>
+        <FriendBox/>
         <Switch>
             <Route exact path = "/" component = {Home}/>
                     <Route exact path = "/blogs/blog1" component = {blog1}/>
@@ -32,7 +37,10 @@ function App()
                     <Route exact path = "/blogs/blog5" component = {blog5}/>
                     <Route exact path = "/blogs/blog6" component = {blog6}/>
                     <Route exact path = "/blogs/blog7" component = {blog7}/> 
-                    <Route exact path = "/blogs/blog8" component = {blog8}/>   
+                    <Route exact path = "/blogs/blog8" component = {blog8}/>
+                    <Route exact path = "/blogs/blog9" component = {blog9}/>
+                    <Route exact path = "/blogs/blog10" component = {blog10}/>
+                    <Route exact path = "/blogs/blog11" component = {blog11}/>    
         </Switch>
         <Footer/>
         <div className="plswork">
@@ -41,6 +49,6 @@ function App()
         </div>
     );
     
-}
+};
 export default App;
 

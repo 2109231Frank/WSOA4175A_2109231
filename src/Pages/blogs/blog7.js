@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../../Style/mainBlogs.css";
 
 
-export default class blog3 extends Component {
+export default class blog7 extends Component {
   componentDidMount() {
     window.scroll(0, 0);
     }
@@ -10,7 +10,7 @@ export default class blog3 extends Component {
     return (
       <div className='blog'>
          <article>
-          <h1>My Net-Art Prototype<a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+         <header><h1>My Net-Art Prototype</h1></header>
         
         <p>
           My internet artwork is a website that consists of three sections, they are seperated by a long empty 
@@ -41,7 +41,7 @@ export default class blog3 extends Component {
         <p>
           In David Carrier’s <i>The Work of Art in the Age of the Internet</i> he proposes a categorical system 
           to keep in mind when interacting with or revieiwing internet artworks. This system is divided into the 
-          Immediate, the Social, the Activist, and the Liked (Carrier, 2020: p 6). I will use this framework 
+          Immediate, the Social, the Activist, and the Liked <cite>(Carrier, 2020: p 6)</cite>. I will use this framework 
           to analyze my artwork. With regards to the Immediate my artwork is commenting on an issue that is 
           relevant to what is going on in the world right now. Even though we are slowly coming out of lockdown, 
           many people (me included) are still dealing with what we experienced during the lockdown. The Social 
@@ -62,8 +62,9 @@ export default class blog3 extends Component {
           is that it is going to require a lot of technical experimenting which I will do. My plan for going forward is 
           to experimant with interactive elements, observe the emotional outcome and adapt accordingly.
         </p>
+        <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

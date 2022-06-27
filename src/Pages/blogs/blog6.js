@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../../Style/mainBlogs.css";
 
 
-export default class blog3 extends Component {
+export default class blog6 extends Component {
   componentDidMount() {
     window.scroll(0, 0);
     }
@@ -10,7 +10,7 @@ export default class blog3 extends Component {
     return (
       <div className='blog'>
          <article>
-          <h1>Reflection 2<a href='javascript:history.back()' className='backLink'>BACK</a></h1>
+         <header><h1>Reflection 2</h1></header>
         
         <p>
           This block was a bit more challanging than the last seeing that I had a lot of trouble thinking 
@@ -24,8 +24,9 @@ export default class blog3 extends Component {
           interactive elements. How I would do this I'm not too sure yet, but for the time being I'm pleased with how 
           my website turned out since it does do what I wanted it to. 
         </p>  
+        <a href='javascript:history.back()' className='backLink'>BACK</a>
           </article>
       </div>
-    )
-  }
-}
+    );
+  };
+};

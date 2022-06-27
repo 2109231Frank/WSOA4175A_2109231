@@ -22,30 +22,41 @@
 }
 
 
-.wireframe h1{
-    font-size: 30px;
-    font-weight: 800;
+.wireframe h2{
+    font-size: 40px;
+    font-weight: 100;
     color: rgb(218, 218, 218);
     padding-top: 3500px;
 }
 
-.wireframe h2{
-    font-weight: 800;
+.wireframe h3{
+    font-size: 30px;
+    font-weight: 100;
     color: rgb(218, 218, 218);
+    font-family: 'Indie Flower', cursive;
 }
 
-.wireframe .styleGuide h2{
-    font-weight: 800;
+.wireframe .styleGuide h3{
+    font-weight: 100;
+    font-size: 30px;
     color: rgb(218, 218, 218);
     text-align: center;
+    font-family: 'Indie Flower', cursive;
 }
 
-h3{
-    font-weight: 800;
+
+
+h4{
+    font-size: 20px;
+    font-weight: 100;
     color: rgb(218, 218, 218);
+    font-family: 'Indie Flower', cursive;
 }
 
-
+.styleGuide p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
 
 .wireframeItem{
     width: 400px;
@@ -78,7 +89,7 @@ h3{
         font-size: 15px;
     }
 
-    .wireframe .styleGuide {
+    .wireframe .styleGuide p{
         font-size: 17px;
     }
 }

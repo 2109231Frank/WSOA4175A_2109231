@@ -6,8 +6,17 @@
     height: 100%;
     font-family: 'Rubik', sans-serif;
     /* background-image: radial-gradient(rgb(72, 72, 72), rgb(44, 44, 44)); */
-    background-image: radial-gradient(rgb(46, 55, 62), rgb(32, 43, 53));
-    background-size: cover;
+    background-size: 400% 400%;
+    background-image: radial-gradient(rgb(34, 34, 34) 0%, rgb(0, 0, 0) 30%);
+    animation: animateBack 10s ease infinite;
+}
+
+@keyframes animateBack{
+    0%{background-position: 0 50%;}
+    25%{background-position: 25% 50%;}
+    50%{background-position: 100% 50%;;}
+    75%{background-position: 25% 50%;}
+    100%{background-position: 0 50%;}
 }
 
 .App .plswrk{
