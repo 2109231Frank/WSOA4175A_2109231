@@ -146,6 +146,9 @@ export default class Home extends Component {
                 personally that is very reminiscent of how I felt during lockdown with the almost meaningless interactions through 
                 the internet.
             </p>
+            <p>
+              The changes I have made to the site are explained in detail in my Final Design Reflection blogpost.
+            </p>
             </article>
       </section>
       </div>
